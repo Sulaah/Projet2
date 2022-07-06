@@ -1,0 +1,466 @@
+*{
+    font-family: Raleway;
+    
+    margin: 10px;
+    
+}
+body{
+    width: 1044px;
+}
+/*création de la barre de nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+/*alignement de hebergement et activité*/
+li{
+    min-width: 200px;
+    list-style: none;
+    color: black;
+    display: inline;
+    font-size: 15px;
+}
+
+/*SOUS TITRES*/
+.st{
+    color:black;
+    font-weight: 400;
+}
+
+/* Changer l'aspect des liens*/
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*bordure bleu au survol */
+li:hover{
+    border-top: 1px solid #0065FC;
+}
+
+
+/* Changement couleur au survol*/
+a:hover{
+    color: #0065FC;
+    padding-top: 10px;
+
+}
+
+
+/* Barre de recherche */
+h1{ 
+    font-size: 100px; /*changement de taille ne fonctionne pas*/
+}
+p{
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
+.search{
+    display: flex;
+    padding: 0 0 0 0;
+    font-weight: bold;
+
+}
+/*Change l'icone de localisation*/
+#location{
+    background-color: #F2F2F2;
+    padding: 13px;
+    margin: 0;
+    border-radius: 10px 0 0 10px;
+    color: black;
+
+}
+/*Change le bouton rechercher*/
+#rechercher{
+    background-color: #0065FC;
+    color: #F2F2F2;
+    font-size: 15px;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+    
+
+}
+
+
+
+
+
+
+
+
+/* Partie Filtres*/
+
+.Filtres{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+}
+/* pour centrer filtres avec les icones*/
+#titre-filtre{
+    padding-top: 12px;
+}
+.Filters{
+    display: flexbox; /*pourquoi ça reste blanc ?*/
+    flex-wrap: wrap;
+}
+/* rajoute un effet sur les icones filtres*/
+i:hover{
+    opacity: 50%;
+}
+
+.filtres-bouton{
+    border-radius: 35px;
+    border: solid #F2F2F2;
+    padding: auto;
+}
+/*changements des icônes*/
+.fa-solid{
+    background-color: #DEEBFF;
+    width: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    color: #0065FC;
+    margin-left: 0px;
+}
+
+/*PARTIE INFO*/
+
+/*alignement de l'icone et du p */
+
+.info{
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 10px;
+    
+
+}
+
+/*changement de l'icone info*/
+.fa-info{
+    background-color: white;
+    border: #F2F2F2 solid 2px;
+    border-radius: 100px;
+    padding: 1px 1px 1px 1px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Partie hébergements à marseille*/
+/*Partie grisé*/
+.zone1{
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+/*vignette complète*/
+.vignette{
+    padding: 0 2px 0 2px;
+    height: 139px;
+    display: block;
+    width: 175px;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 7px;
+
+}
+
+
+.hébergements{
+    object-fit: cover; /*définhition cover*/
+    width: 165px; /*mesure arrondi de la maquette*/
+    height: 80px;
+    border-radius: 15px 15px 0 0;
+    margin: 4px;
+    
+    
+
+}
+.etoiles{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 9px;
+    
+
+
+}
+.bluestar{
+    display: flex;
+    margin: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+
+
+.greystar{
+    color: grey;
+    margin: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.blackstar{
+    color: black;
+    background-color: transparent;
+}
+
+.ligne1{
+    display: flex;
+}
+
+.ligne2{
+    display: flex;
+}
+
+.plus{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 30px ;
+    
+    
+    
+}
+
+
+/*PARTIE LES PLUS POPULAIRES*/
+.side{
+    background-color: #F2F2F2;
+    width: 280px;
+    padding-right: 50px;
+    margin-right: 5px;
+    border-radius: 15px;
+    
+    
+}
+/*
+.zone2{
+    background-color: white;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    
+    
+}
+PAS UTILE ?? */
+.populaire{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.colonne{
+    height: 100px;
+    display: flex;
+    width: 235px;
+    background-color: white;
+    border-radius: 10px;
+    padding-right: 40px;
+    
+    
+    
+}
+
+.hotel{
+    object-fit: cover; /*définhition cover*/
+    width: 87px; /*mesure arrondi de la maquette*/
+    height: 95px;
+    border-radius: 15px 0 0 15px;
+    display: flex;
+    margin: 5px;
+    
+    
+
+    
+}
+
+/* TEST TEST TEST TEST TEST TEST TEST*/
+.centrale{
+    display: flex;
+    
+    
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*ACTIVITE A MARSEILLE*/
+.titre{
+    display: flex;
+    flex-direction: column;
+
+}
+.activités{
+
+    display: flex;
+}
+.grand{
+    width: 211px;
+    height: 311px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+}
+.grdcat{
+    object-fit: cover;
+    width: 210px;
+    margin: 0;
+    height: 273px;
+    border-radius: 10px 10px 0 0;
+}
+
+.fort{
+    background-color: white;
+    width: 211px;
+    height: 166px;
+    border-radius: 10px;
+
+}
+.pomegues{
+    width: 211px;
+    height: 126px;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.iles{
+    background-color: white;
+    width: 211px;
+    height: 115px;
+    border-radius: 10px;
+
+}
+
+.frioul{
+    height: 75px;
+    width: 211px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.dame{
+    background-color: white;
+    width: 211px;
+    height: 136px;
+    border-radius: 10px;
+}
+
+.garde{
+    width: 211px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    height: 96px;
+}
+.long{
+    background-color: white;
+    width: 211px;
+    height: 146px;
+    border-radius: 10px;
+}
+
+.champ{
+    width: 211px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    height: 107px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTTTTTER*/
+footer{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.propos{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.qualité{
+    
+    display: flex;
+    flex-direction: column;
+}
+.assistance{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*Mise en forme (à trier) */
+span{
+    font-weight: bold;
+    color: black;
+}
+
+figcaption{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.h3{
+    font-weight: bold;
+}
+
+p{
+    color: black;
+    font-weight: 600;
+}
+h2{
+    font-size: 15px;
+}
+
+input{
+    font-weight: 700;
+}
+
+.OMfr{
+    font-weight: 700;
+    color: black;
+}
